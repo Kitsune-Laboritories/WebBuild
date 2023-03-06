@@ -18,9 +18,7 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Evil_Incarnate_v1.0</div>
+          <div id="unity-fullscreen-button" style="margin-top: -42px; position: relative"></div>
       </div>
     </div>
     <script>
@@ -58,9 +56,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild.data.gz",
-        frameworkUrl: buildUrl + "/WebBuild.framework.js.gz",
-        codeUrl: buildUrl + "/WebBuild.wasm.gz",
+        dataUrl: buildUrl + "/WebBuild.data",
+        frameworkUrl: buildUrl + "/WebBuild.framework.js",
+        codeUrl: buildUrl + "/WebBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Evil_Incarnate_v1.0",
